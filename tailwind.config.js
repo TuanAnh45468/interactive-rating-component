@@ -5,7 +5,8 @@ module.exports = {
     colors: {
       orange: "hsl(25, 97%, 53%)",
       white: "hsl(0, 0%, 100%)",
-      "medium-grey": "hsl(217, 12%, 63%)",
+      "light-grey": "hsl(217, 12%, 63%)",
+      "medium-grey": "hsl(216, 12%, 54%)",
       "dark-blue": "hsl(213, 19%, 18%)",
       "very-dark-blue": "hsl(216, 12%, 8%)",
     },
@@ -21,6 +22,10 @@ module.exports = {
       fontWeight: {
         regular: 400,
         bold: 700,
+      },
+      backgroundImage: {
+        "gradient-dark-blue":
+          "linear-gradient(to bottom, hsl(213, 19%, 18%) 0%, hsl(213, 19%, 18%) 100%)",
       },
     },
   },

@@ -4,6 +4,13 @@
 
 @layer base {
     body{
-        @apply text-sm
+        @apply text-base font-overpass
+    }
+
+}
+
+@layer components {
+    .rating{
+        @apply rounded-full border border-medium-grey bg-medium-grey w-[40px] h-[40px] flex items-center justify-center hover:bg-orange hover:text-white duration-500
     }
 }
