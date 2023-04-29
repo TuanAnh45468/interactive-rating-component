@@ -25,7 +25,7 @@ module.exports = {
       },
       backgroundImage: {
         "gradient-dark-blue":
-          "linear-gradient(to bottom, hsl(213, 19%, 18%) 0%, hsl(213, 19%, 18%) 100%)",
+          "linear-gradient(to bottom, hsl(215, 20%, 17%) 0%, hsl(225, 19%, 12%) 100%)",
       },
     },
   },

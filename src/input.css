@@ -11,6 +11,6 @@
 
 @layer components {
     .rating{
-        @apply rounded-full border border-medium-grey bg-medium-grey w-[40px] h-[40px] laptop:w-[50px] laptop:h-[50px] flex items-center justify-center hover:bg-orange hover:text-white duration-500
+        @apply rounded-full border border-medium-grey bg-medium-grey w-[40px] h-[40px] laptop:w-[50px] laptop:h-[50px] flex items-center justify-center hover:bg-light-grey hover:text-white duration-75
     }
 }

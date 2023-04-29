@@ -540,12 +540,12 @@ body {
   border-color: hsl(216 12% 54% / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: hsl(216 12% 54% / var(--tw-bg-opacity));
-  transition-duration: 500ms;
+  transition-duration: 75ms;
 }
 
 .rating:hover {
   --tw-bg-opacity: 1;
-  background-color: hsl(25 97% 53% / var(--tw-bg-opacity));
+  background-color: hsl(217 12% 63% / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
@@ -575,6 +575,10 @@ body {
 
 .h-\[30px\] {
   height: 30px;
+}
+
+.h-\[34px\] {
+  height: 34px;
 }
 
 .h-\[50px\] {
@@ -642,6 +646,11 @@ body {
   border-color: hsl(216 12% 54% / var(--tw-border-opacity));
 }
 
+.bg-dark-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(213 19% 18% / var(--tw-bg-opacity));
+}
+
 .bg-medium-grey {
   --tw-bg-opacity: 1;
   background-color: hsl(216 12% 54% / var(--tw-bg-opacity));
@@ -658,7 +667,7 @@ body {
 }
 
 .bg-gradient-dark-blue {
-  background-image: linear-gradient(to bottom, hsl(213, 19%, 18%) 0%, hsl(213, 19%, 18%) 100%);
+  background-image: linear-gradient(to bottom, hsl(215, 20%, 17%) 0%, hsl(225, 19%, 12%) 100%);
 }
 
 .px-\[5\%\] {
